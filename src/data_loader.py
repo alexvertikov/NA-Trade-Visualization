@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 import numpy as np
 import re
 
@@ -14,12 +15,20 @@ def load_data():
     
     #Read each csv file into a pandas dataframe
 
-    #Data taken from trade.gov (2024 Data)
-    canada_exports = pd.read_csv("/Users/alexvertikov/Desktop/Personal-Projects/ECON_1500_Project/data/Cured-State-Canadian-Exports - State-Canadian-Exports.csv", encoding='cp1252')
-    canada_imports = pd.read_csv("/Users/alexvertikov/Desktop/Personal-Projects/ECON_1500_Project/data/Cured-State-Canadian-Imports - State-Canadian-Imports.csv", encoding='cp1252')
+    # Get the base path for data files
+    # This finds the directory where the current script is located
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    # Go up one level (from src to project root)
+    project_root = os.path.dirname(current_dir)
+    # Path to data directory
+    DATA = os.path.join(project_root, "data")
 
-    mexico_exports = pd.read_csv("/Users/alexvertikov/Desktop/Personal-Projects/ECON_1500_Project/data/Cured-State-Mexican-Exports - State-Mexican-Exports.csv", encoding='cp1252')
-    mexico_imports = pd.read_csv("/Users/alexvertikov/Desktop/Personal-Projects/ECON_1500_Project/data/Cured-State-Mexican-Imports.csv", encoding='cp1252')
+    #Data taken from trade.gov (2024 Data)
+    canada_exports = pd.read_csv(os.path.join(DATA, "Cured-State-Canadian-Exports - State-Canadian-Exports.csv"), encoding='cp1252')
+    canada_imports = pd.read_csv(os.path.join(DATA, "Cured-State-Canadian-Imports - State-Canadian-Imports.csv"), encoding='cp1252')
+
+    mexico_exports = pd.read_csv(os.path.join(DATA, "Cured-State-Mexican-Exports - State-Mexican-Exports.csv"), encoding='cp1252')
+    mexico_imports = pd.read_csv(os.path.join(DATA, "Cured-State-Mexican-Imports.csv"), encoding='cp1252')
 
     #Filter to get just the rows for individual states (not UNITED STATES or Unallocated)
     #Filter for rows where Product is "0--All Merchandise" and exclude UNITED STATES and Unallocated
