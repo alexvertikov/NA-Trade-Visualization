@@ -1,0 +1,56 @@
+Product,State,Unit,Flow,Country,2018,2019,2020,2021,2022,2023,2024
+0--All Merchandise,UNITED STATES,Millions of USD,Imports,Mexico,"$343,681","$356,094","$323,477","$382,569","$452,032","$475,216","$505,851"
+0--All Merchandise,Texas,Millions of USD,Imports,Mexico,"$106,321","$103,797","$88,203","$107,652","$140,082","$142,733","$157,632"
+0--All Merchandise,Michigan,Millions of USD,Imports,Mexico,"$56,090","$58,095","$47,361","$51,849","$59,064","$69,022","$75,217"
+0--All Merchandise,California,Millions of USD,Imports,Mexico,"$43,688","$46,364","$47,581","$57,326","$60,241","$61,500","$64,297"
+0--All Merchandise,Illinois,Millions of USD,Imports,Mexico,"$12,719","$12,718","$12,499","$15,293","$18,219","$18,257","$19,335"
+0--All Merchandise,Georgia,Millions of USD,Imports,Mexico,"$6,855","$7,712","$9,076","$11,720","$13,498","$13,732","$18,638"
+0--All Merchandise,Tennessee,Millions of USD,Imports,Mexico,"$8,284","$10,262","$10,373","$11,353","$11,476","$14,044","$14,757"
+0--All Merchandise,Arizona,Millions of USD,Imports,Mexico,"$8,996","$9,269","$8,954","$9,353","$10,867","$11,754","$11,615"
+0--All Merchandise,North Carolina,Millions of USD,Imports,Mexico,"$7,648","$7,737","$7,024","$8,177","$10,457","$10,330","$11,579"
+0--All Merchandise,Ohio,Millions of USD,Imports,Mexico,"$9,062","$8,764","$8,168","$9,743","$11,430","$11,382","$11,514"
+0--All Merchandise,Florida,Millions of USD,Imports,Mexico,"$7,515","$6,910","$6,164","$7,650","$9,593","$10,454","$9,928"
+0--All Merchandise,Kentucky,Millions of USD,Imports,Mexico,"$6,712","$7,495","$6,843","$7,104","$7,548","$7,892","$9,919"
+0--All Merchandise,New Jersey,Millions of USD,Imports,Mexico,"$4,400","$4,757","$5,216","$6,934","$7,894","$7,596","$7,020"
+0--All Merchandise,Alabama,Millions of USD,Imports,Mexico,"$4,133","$4,953","$4,153","$5,530","$7,901","$8,146","$6,897"
+0--All Merchandise,Pennsylvania,Millions of USD,Imports,Mexico,"$6,377","$7,064","$5,783","$6,408","$6,790","$6,649","$6,695"
+0--All Merchandise,Indiana,Millions of USD,Imports,Mexico,"$4,491","$5,129","$4,542","$5,007","$5,286","$5,953","$6,131"
+0--All Merchandise,Wisconsin,Millions of USD,Imports,Mexico,"$2,824","$2,788","$2,660","$3,062","$3,765","$6,021","$5,935"
+0--All Merchandise,South Carolina,Millions of USD,Imports,Mexico,"$3,798","$4,732","$4,419","$5,210","$5,586","$5,554","$5,678"
+0--All Merchandise,Massachusetts,Millions of USD,Imports,Mexico,"$3,370","$3,062","$3,436","$4,239","$4,519","$4,884","$5,274"
+0--All Merchandise,Missouri,Millions of USD,Imports,Mexico,"$3,522","$3,396","$3,332","$3,902","$4,654","$4,843","$5,025"
+0--All Merchandise,Maryland,Millions of USD,Imports,Mexico,"$1,994","$2,928","$3,230","$4,148","$4,600","$4,945","$4,800"
+0--All Merchandise,Utah,Millions of USD,Imports,Mexico,"$3,605","$4,652","$4,295","$4,923","$4,578","$4,872","$4,789"
+0--All Merchandise,Louisiana,Millions of USD,Imports,Mexico,"$2,267","$2,398","$2,180","$3,025","$4,967","$5,825","$4,586"
+0--All Merchandise,Virginia,Millions of USD,Imports,Mexico,"$1,432","$1,329","$1,592","$2,280","$3,704","$2,769","$3,786"
+0--All Merchandise,Connecticut,Millions of USD,Imports,Mexico,"$2,500","$2,950","$2,947","$3,223","$3,288","$3,557","$3,605"
+0--All Merchandise,New York,Millions of USD,Imports,Mexico,"$3,557","$3,608","$3,372","$2,673","$3,326","$3,481","$3,529"
+0--All Merchandise,Minnesota,Millions of USD,Imports,Mexico,"$2,267","$2,344","$2,532","$2,936","$3,296","$3,279","$3,071"
+0--All Merchandise,Unallocated,Millions of USD,Imports,Mexico,"$3,211","$2,656","$2,460","$2,715","$2,830","$2,936","$2,814"
+0--All Merchandise,Mississippi,Millions of USD,Imports,Mexico,"$1,502","$1,588","$1,842","$2,573","$3,277","$2,877","$2,765"
+0--All Merchandise,Iowa,Millions of USD,Imports,Mexico,"$1,690","$1,952","$1,294","$1,772","$2,100","$2,738","$2,407"
+0--All Merchandise,New Mexico,Millions of USD,Imports,Mexico,$758,"$1,328","$1,340","$2,162","$2,227","$2,465","$2,273"
+0--All Merchandise,Rhode Island,Millions of USD,Imports,Mexico,"$2,490","$2,923","$1,479","$1,369","$1,437","$1,435","$1,658"
+0--All Merchandise,Nevada,Millions of USD,Imports,Mexico,$728,$932,$861,"$1,187","$1,443","$1,380","$1,571"
+0--All Merchandise,Washington,Millions of USD,Imports,Mexico,"$1,517","$1,797","$1,411","$1,458","$1,467","$1,733","$1,460"
+0--All Merchandise,Kansas,Millions of USD,Imports,Mexico,$711,$803,$569,$853,"$1,129","$1,223","$1,388"
+0--All Merchandise,Oklahoma,Millions of USD,Imports,Mexico,$788,$695,$746,"$1,086","$1,232","$1,131","$1,102"
+0--All Merchandise,Colorado,Millions of USD,Imports,Mexico,"$1,522","$1,514","$1,236","$1,336","$1,523","$1,227","$1,092"
+0--All Merchandise,Arkansas,Millions of USD,Imports,Mexico,$900,"$1,037",$775,$839,$994,$912,$968
+0--All Merchandise,Nebraska,Millions of USD,Imports,Mexico,$336,$394,$368,$382,$520,$730,$847
+0--All Merchandise,Puerto Rico,Millions of USD,Imports,Mexico,$658,$665,$566,$862,"$1,115","$1,169",$847
+0--All Merchandise,Delaware,Millions of USD,Imports,Mexico,$317,$332,$611,$860,"$1,691","$1,223",$841
+0--All Merchandise,Oregon,Millions of USD,Imports,Mexico,$856,$959,$882,"$1,106",$911,$896,$840
+0--All Merchandise,New Hampshire,Millions of USD,Imports,Mexico,$391,$353,$283,$352,$430,$487,$594
+0--All Merchandise,North Dakota,Millions of USD,Imports,Mexico,$163,$162,$137,$207,$210,$205,$234
+0--All Merchandise,Idaho,Millions of USD,Imports,Mexico,$221,$225,$150,$132,$165,$169,$200
+0--All Merchandise,Vermont,Millions of USD,Imports,Mexico,$51,$63,$56,$78,$79,$91,$117
+0--All Merchandise,Montana,Millions of USD,Imports,Mexico,$107,$111,$70,$95,$99,$111,$115
+0--All Merchandise,West Virginia,Millions of USD,Imports,Mexico,$85,$117,$128,$119,$127,$161,$115
+0--All Merchandise,South Dakota,Millions of USD,Imports,Mexico,$79,$57,$77,$96,$78,$92,$102
+0--All Merchandise,Maine,Millions of USD,Imports,Mexico,$65,$90,$88,$106,$126,$111,$83
+0--All Merchandise,District of Columbia,Millions of USD,Imports,Mexico,$4,$4,$7,$8,$69,$77,$66
+0--All Merchandise,Alaska,Millions of USD,Imports,Mexico,$23,$59,$44,$32,$52,$99,$46
+0--All Merchandise,Wyoming,Millions of USD,Imports,Mexico,$42,$29,$49,$43,$23,$27,$38
+0--All Merchandise,Hawaii,Millions of USD,Imports,Mexico,$34,$14,$8,$17,$29,$15,$13
+0--All Merchandise,Virgin Islands,Millions of USD,Imports,Mexico,$4,$19,$6,$5,$21,$22,$4

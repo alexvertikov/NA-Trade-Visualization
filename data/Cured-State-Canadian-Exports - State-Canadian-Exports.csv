@@ -1,0 +1,56 @@
+Product,State,Unit,Flow,Country,2018,2019,2020,2021,2022,2023,2024
+0--All Merchandise,UNITED STATES,Millions of USD,Exports,Canada,"$299,732","$292,820","$256,212","$309,604","$359,237","$354,356","$348,503"
+0--All Merchandise,Unallocated,Millions of USD,Exports,Canada,"$23,138","$23,468","$21,562","$24,998","$26,004","$25,708","$43,204"
+0--All Merchandise,Texas,Millions of USD,Exports,Canada,"$27,544","$28,531","$23,360","$29,050","$38,420","$36,072","$36,555"
+0--All Merchandise,Michigan,Millions of USD,Exports,Canada,"$23,894","$23,257","$18,164","$22,945","$28,034","$27,962","$23,299"
+0--All Merchandise,Ohio,Millions of USD,Exports,Canada,"$21,175","$20,702","$17,504","$18,420","$20,243","$21,832","$19,891"
+0--All Merchandise,Illinois,Millions of USD,Exports,Canada,"$17,699","$15,685","$13,273","$18,680","$24,519","$20,753","$19,831"
+0--All Merchandise,California,Millions of USD,Exports,Canada,"$17,688","$16,664","$16,029","$18,054","$20,588","$19,386","$18,364"
+0--All Merchandise,New York,Millions of USD,Exports,Canada,"$16,809","$16,489","$17,493","$21,751","$22,776","$21,741","$17,435"
+0--All Merchandise,Pennsylvania,Millions of USD,Exports,Canada,"$10,850","$11,219","$9,729","$12,156","$13,833","$14,415","$14,511"
+0--All Merchandise,Indiana,Millions of USD,Exports,Canada,"$13,377","$13,304","$11,231","$13,596","$15,101","$15,050","$13,896"
+0--All Merchandise,Kentucky,Millions of USD,Exports,Canada,"$7,775","$7,811","$6,647","$8,459","$8,935","$9,182","$9,319"
+0--All Merchandise,North Carolina,Millions of USD,Exports,Canada,"$6,682","$6,659","$5,921","$6,587","$7,580","$7,769","$8,655"
+0--All Merchandise,New Jersey,Millions of USD,Exports,Canada,"$7,060","$7,185","$7,248","$9,943","$10,106","$8,794","$8,425"
+0--All Merchandise,Washington,Millions of USD,Exports,Canada,"$9,274","$8,561","$6,290","$7,738","$9,697","$9,623","$7,942"
+0--All Merchandise,Wisconsin,Millions of USD,Exports,Canada,"$7,040","$6,754","$6,240","$7,538","$8,647","$8,480","$7,941"
+0--All Merchandise,Tennessee,Millions of USD,Exports,Canada,"$7,878","$7,065","$5,893","$7,462","$8,779","$8,914","$7,785"
+0--All Merchandise,Minnesota,Millions of USD,Exports,Canada,"$4,831","$4,749","$4,956","$6,606","$8,997","$7,048","$7,536"
+0--All Merchandise,Georgia,Millions of USD,Exports,Canada,"$6,318","$5,991","$5,253","$6,308","$7,188","$7,835","$7,411"
+0--All Merchandise,Missouri,Millions of USD,Exports,Canada,"$5,589","$4,992","$4,533","$5,429","$6,280","$6,545","$6,341"
+0--All Merchandise,Florida,Millions of USD,Exports,Canada,"$3,789","$4,362","$3,473","$4,179","$5,403","$5,226","$5,288"
+0--All Merchandise,Iowa,Millions of USD,Exports,Canada,"$4,282","$3,850","$3,493","$4,127","$5,223","$5,506","$5,029"
+0--All Merchandise,Alabama,Millions of USD,Exports,Canada,"$4,107","$3,920","$2,961","$3,502","$3,980","$4,011","$4,295"
+0--All Merchandise,South Carolina,Millions of USD,Exports,Canada,"$3,979","$4,010","$4,010","$3,852","$4,430","$4,559","$4,215"
+0--All Merchandise,Louisiana,Millions of USD,Exports,Canada,"$3,568","$2,943","$2,411","$3,529","$4,848","$4,799","$4,164"
+0--All Merchandise,North Dakota,Millions of USD,Exports,Canada,"$6,849","$6,127","$4,372","$3,980","$3,899","$7,172","$3,851"
+0--All Merchandise,Virginia,Millions of USD,Exports,Canada,"$3,166","$3,076","$2,719","$3,228","$3,473","$3,562","$3,371"
+0--All Merchandise,Oregon,Millions of USD,Exports,Canada,"$3,212","$3,360","$2,757","$3,388","$3,443","$3,492","$3,283"
+0--All Merchandise,Massachusetts,Millions of USD,Exports,Canada,"$3,022","$2,974","$2,769","$3,651","$3,667","$3,320","$2,972"
+0--All Merchandise,Arizona,Millions of USD,Exports,Canada,"$2,245","$2,211","$1,934","$2,314","$2,606","$2,850","$2,770"
+0--All Merchandise,Kansas,Millions of USD,Exports,Canada,"$1,948","$1,928","$1,687","$2,053","$2,712","$2,669","$2,560"
+0--All Merchandise,Connecticut,Millions of USD,Exports,Canada,"$1,964","$1,953","$1,671","$1,739","$2,069","$2,117","$2,306"
+0--All Merchandise,Maryland,Millions of USD,Exports,Canada,"$1,653","$1,653","$1,602","$1,963","$2,291","$2,382","$2,231"
+0--All Merchandise,Mississippi,Millions of USD,Exports,Canada,"$2,230","$2,729","$2,090","$2,269","$2,590","$2,211","$2,067"
+0--All Merchandise,West Virginia,Millions of USD,Exports,Canada,"$1,307","$1,540","$1,286","$1,451","$1,562","$2,157","$1,972"
+0--All Merchandise,Oklahoma,Millions of USD,Exports,Canada,"$1,651","$1,583","$1,461","$1,604","$1,973","$1,872","$1,854"
+0--All Merchandise,Nevada,Millions of USD,Exports,Canada,"$1,188","$1,165","$1,255","$1,521","$1,894","$1,937","$1,785"
+0--All Merchandise,Colorado,Millions of USD,Exports,Canada,"$1,447","$1,446","$1,284","$1,606","$1,717","$1,866","$1,644"
+0--All Merchandise,Nebraska,Millions of USD,Exports,Canada,"$1,717","$1,592","$1,331","$1,611","$1,926","$1,706","$1,630"
+0--All Merchandise,Idaho,Millions of USD,Exports,Canada,$927,$943,"$1,185","$1,461","$1,598","$1,496","$1,627"
+0--All Merchandise,Arkansas,Millions of USD,Exports,Canada,"$1,212","$1,536","$1,150","$1,270","$1,458","$1,641","$1,490"
+0--All Merchandise,Utah,Millions of USD,Exports,Canada,"$1,791","$1,391","$1,508","$1,524","$1,701","$1,709","$1,454"
+0--All Merchandise,Maine,Millions of USD,Exports,Canada,"$1,427","$1,411","$1,244","$1,591","$1,881","$1,446","$1,291"
+0--All Merchandise,New Hampshire,Millions of USD,Exports,Canada,$669,$859,$667,$909,"$1,140","$1,441","$1,153"
+0--All Merchandise,South Dakota,Millions of USD,Exports,Canada,$583,$524,$535,$727,$994,"$1,067",$955
+0--All Merchandise,Montana,Millions of USD,Exports,Canada,$693,$753,$580,$912,$839,"$1,020",$869
+0--All Merchandise,Puerto Rico,Millions of USD,Exports,Canada,$916,$726,$648,$796,$760,$787,$837
+0--All Merchandise,Delaware,Millions of USD,Exports,Canada,$720,$579,$620,$593,$739,$868,$825
+0--All Merchandise,Vermont,Millions of USD,Exports,Canada,"$1,270","$1,015",$877,$830,$781,$683,$645
+0--All Merchandise,Alaska,Millions of USD,Exports,Canada,$654,$582,$500,$744,$824,$596,$614
+0--All Merchandise,Rhode Island,Millions of USD,Exports,Canada,$513,$592,$410,$460,$468,$489,$511
+0--All Merchandise,Wyoming,Millions of USD,Exports,Canada,$235,$226,$226,$316,$394,$381,$401
+0--All Merchandise,New Mexico,Millions of USD,Exports,Canada,$120,$128,$135,$158,$202,$188,$177
+0--All Merchandise,Hawaii,Millions of USD,Exports,Canada,$18,$16,$16,$20,$18,$16,$18
+0--All Merchandise,District of Columbia,Millions of USD,Exports,Canada,$9,$13,$5,$8,$6,$4,$7
+0--All Merchandise,Virgin Islands,Millions of USD,Exports,Canada,$31,$19,$14,,$0,$0,$0
