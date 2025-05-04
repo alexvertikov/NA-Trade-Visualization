@@ -1,0 +1,34 @@
+Product,Flow,Country,Product Classification,State,Unit,2024
+0--All Merchandise,Imports,Canada,NAICS - 3,Michigan,Millions of USD,"$44,813"
+336--Transportation Equipment,Imports,Canada,NAICS - 3,Michigan,Millions of USD,"$24,153"
+211--Oil & Gas,Imports,Canada,NAICS - 3,Michigan,Millions of USD,"$4,584"
+980--Goods Returned and Reimports,Imports,Canada,NAICS - 3,Michigan,Millions of USD,"$3,947"
+331--Primary Metal Manufactures,Imports,Canada,NAICS - 3,Michigan,Millions of USD,"$2,360"
+"333--Machinery, Except Electrical",Imports,Canada,NAICS - 3,Michigan,Millions of USD,"$1,680"
+325--Chemicals,Imports,Canada,NAICS - 3,Michigan,Millions of USD,"$1,204"
+"335--Electrical Equipment, Appliances & Components",Imports,Canada,NAICS - 3,Michigan,Millions of USD,"$1,196"
+332--Fabricated Metal Products,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$955
+311--Processed Foods,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$897
+326--Plastics & Rubber Products,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$547
+321--Wood Products,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$534
+111--Agricultural Products,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$420
+322--Paper,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$300
+324--Petroleum & Coal Products,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$293
+334--Computer & Electronic Products,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$273
+910--Waste And Scrap,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$230
+212--Minerals & Ores,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$174
+327--Nonmetallic Mineral Products,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$150
+339--Miscellaneous Manufactures,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$148
+990--Other Special Classification Provisions,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$145
+112--Livestock & Livestock Products,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$144
+930--Used Or Second-Hand Merchandise,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$119
+337--Furniture & Fixtures,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$111
+323--Printed Matter & Related Products,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$85
+312--Beverages & Tobacco Products,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$66
+114--Fish & Other Marine Products,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$34
+313--Textiles & Fabrics,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$33
+316--Leather & Allied Products,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$14
+315--Apparel & Accessories,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$8
+314--Textile Mill Products,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$6
+113--Forestry Products,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$3
+115--Products Supporting Agriculture And Forestry,Imports,Canada,NAICS - 3,Michigan,Millions of USD,$0

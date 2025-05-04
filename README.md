@@ -48,16 +48,20 @@ With this project, I will bring the data to bear and see if there really is broa
 
 The data for this project was obtained from:
 - U.S. Trade Online (trade.gov)
-//Need to find the specific dashboard and link
-- [List any other data sources you used]
 
-trade.gov has very granular data (including the types of exports (commodities, steel, etc)), which 
-could be used to make a much more granular model
+---The data for each state's trade volumes with Mexico and canada was obtained from the dashboard
+    titled "TradeStats Express - Trade by Partner by State" and found at https://www.trade.gov/data-visualization/tradestats-express-trade-partner-state. Select "0--All Merchandise" as the product.
 
-All data is from 2024 and represents imports and exports between U.S. states and Canada/Mexico.
+
+---Specific product type breakdowns were obtained from the dashboard titled 
+    "TradeStats Express - State  Trade by Products" at https://www.trade.gov/data-visualization/tradestats-express-state-trade-products
+
+
+---All data is from 2024 and represents imports and exports between U.S. states and Canada/Mexico.
 
 ## Implementation Details
 
+All the core files can be found in the "src" directory. "main.py" contains most of the code for the actual streamlit app, "data_loader.py" focuses on preparing the data for our final dataframe (with pandas) and "maps.py" focuses on the details of creating the maps using plotly. In order to make the downloaded csv files readable, I uploaded them into Google Sheets and redownloaded (the redownloaded files are labeled as "Cured" in the "data" directory and the originals are not).
 
 
 ### Technologies Used
@@ -80,19 +84,20 @@ This simplified model assumes that a 1% increase in tariffs would result in:
 
 
 <! --- MORE COMPLEX MODELS ---!>
-I did not use this, but it's possible to use more complex and reactive models
+I did not use this, but it's possible to use more complex and reactive models. Including existing models
+in the economic literature.
 
 ### Limitations
 
 There are obvious limitations in the simplicity of the model and the inherent difficulty
 in determining which balance of trade is "good" or "bad." It may be that Americans are better 
 off by having trade deficits with Mexico and Canada, and it is almost certainly true that the tariffs
-which reduce those deficits would have some negative effects on the American economy.
+which reduce those deficits would have some negative effects on the American economy. Also, the model may be overly simple and not account for different variations in which goods are produced in each country.
 
 ## Running Locally
 
 1. Clone this repository
-2. Install dependencies:
+2. Install dependencies or use the virtual environment
 
 
 

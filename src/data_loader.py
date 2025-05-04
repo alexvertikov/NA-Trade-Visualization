@@ -3,6 +3,17 @@ import os
 import numpy as np
 import re
 
+ #Function that converts raw data values (strings with dollar signs) into numbers
+def convert_to_number(value):
+        """
+        If it is a string, we use regex to return a float without any commas or dollar signs
+        """
+        #if value is a string, we return a float ()
+        if isinstance(value, str):
+                #Remove $ and commas using regex
+            return float(re.sub(r'[,$]', '', value))
+        return value
+
 
 
 #Creating a function that will load the trade data
@@ -70,17 +81,7 @@ def load_data():
     #Now, create a dataframe with just the state names (taken randmoly from canada_exports)
     all_data = pd.DataFrame({"State": canada_exports["State"].copy()})
     
-        
-    #Function that converts raw data values (strings with dollar signs) into numbers
-    def convert_to_number(value):
-        """
-        If it is a string, we use regex to return a float without any commas or dollar signs
-        """
-        #if value is a string, we return a float ()
-        if isinstance(value, str):
-                #Remove $ and commas using regex
-            return float(re.sub(r'[,$]', '', value))
-        return value
+    
     
     
         
@@ -183,3 +184,29 @@ def impact_calculator(df, rate):
     projected_df = calculate_balance(projected_df)
     
     return projected_df
+
+
+
+def load_detailed_data(file_name):
+    """
+    A function that loads detailed trade data from the csv files.
+    For use with the Michigan trade category pie charts
+    """
+    # Get the base path for data files
+    # This finds the directory where the current script is located
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    # Go up one level (from src to project root)
+    project_root = os.path.dirname(current_dir)
+    # Path to data directory
+    DATA = os.path.join(project_root, "data")
+    
+    # Full file path
+    file_path = os.path.join(DATA, file_name)
+    
+    # Read the file
+    df = pd.read_csv(file_path)
+    
+    # Clean the 2024 column (using the same convert_to_number logic)
+    df['2024'] = df['2024'].apply(convert_to_number)
+    
+    return df

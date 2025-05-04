@@ -85,4 +85,72 @@ def create_map(df):
         )
     )
     
+    return fig\
+    
+
+
+#In this same file, we will also create the figures for the Michigan trade pie charts
+
+def create_pie_chart(df, title):
+    """
+    Creates a pie chart from Michigan's detailed import/export data from USTR
+    (which now contains categories)
+    """
+    """
+    Creates a pie chart from Michigan's detailed trade data
+    
+    Parameters:
+    - df: DataFrame containing Michigan trade data
+    - title: Title for the pie chart
+    
+    Returns:
+    - fig: Plotly figure object
+    """
+    # Make a copy to avoid modifying the original
+    df = df.copy()
+    
+    # Remove the "All Merchandise" total row
+    df = df[df["Product"] != "0--All Merchandise"]
+    
+    # Extract the description from Product column
+    df['Description'] = df['Product'].str.split('--').str[1].fillna(df['Product'])
+
+    
+    # Sort by value and get top 5 categories
+    df = df.sort_values('2024', ascending=False)
+    top5 = df.head(5)
+    
+    # Calculate "Other" category
+    other_value = df.iloc[5:]['2024'].sum()
+    
+    # Calculate percentages
+    total = df['2024'].sum()
+    top5_pct = [(value / total * 100) for value in top5['2024']]
+    other_pct = (other_value / total * 100)
+    
+    # Create labels and values for the pie chart
+    labels = [f"{row[1]['Description']} ({value:.1f}%)" for row, value in zip(top5.iterrows(), top5_pct)]
+    labels.append(f"Other ({other_pct:.1f}%)")
+    
+    values = list(top5['2024'])
+    values.append(other_value)
+    
+    # Create the pie chart
+    fig = px.pie(
+        values=values,
+        names=labels,
+        title=title,
+        color_discrete_sequence=px.colors.qualitative.Set3
+    )
+
+    
+    # Simplify text in the pie slices to just percentages
+    fig.update_traces(
+        textposition='inside',
+        textinfo='percent',
+        hoverinfo='label+percent+value',
+        textfont_size=12
+    )
+    
     return fig
+    
